@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'TT Octosquares';
+    src: url('./TT\ Octosquares\ Trial\ Regular.ttf') format('truetype'),
+         url('./TT\ Octosquares\ Trial\ Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Octosquares';
+    src: url('./TT\ Octosquares\ Trial\ Light.ttf') format('truetype'),
+         url('./TT\ Octosquares\ Trial\ ExtraLight.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
