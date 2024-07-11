@@ -1,0 +1,130 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  
+@layer base {
+  :root {
+    --background: 0, 0%, 22%;
+    --foreground: 0, 0%, 100%;
+    --card: 0.01 59.5% 48.2%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0.01 59.5% 48.2%;
+    --primary-foreground: 0, 0%, 100%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0.01 59.5% 48.2%;
+    --input: 0.01 59.5% 48.2%;
+    --ring: 0.01 59.5% 48.2%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%; /* Alter background of page */
+    --foreground: 0 0% 98%; /* Alters colors of all text elements <p> <h1> etc */
+    --card: 325 90.2% 54.3%; /* Alters colors of card components. Can make a component inherit these properties through backgroundColor: 'hsl(var(--card))'*/
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 325 90.2% 54.3%;
+    --primary-foreground: 0 85.7% 97.3%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 325 90.2% 54.3%;
+    --input: 325 90.2% 54.3%;
+    --ring: 325 90.2% 54.3%;
+  }
+
+  .wraith {
+    --background: 0, 0%, 22%;
+    --foreground: 0, 0%, 100%;
+    --card: 264 75% 58%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 264 75% 58%;
+    --primary-foreground: 0, 0%, 100%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 264 75% 58%;
+    --input: 264 75% 58%;
+    --ring: 264 75% 58%;
+    --radius: 0.5rem;
+  }
+
+  .caustic {
+    --background: 0, 0%, 22%;
+    --foreground: 0, 0%, 100%;
+    --card: 59 100% 45%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 59 100% 45%;
+    --primary-foreground: 0, 0%, 100%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 59 100% 45%;
+    --input: 59 100% 45%;
+    --ring: 59 100% 45%;
+    --radius: 0.5rem;
+  }
+
+  .mirage {
+    --background: 0, 0%, 22%;
+    --foreground: 0, 0%, 100%;
+    --card: 180 39% 56%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 180 39% 56%;
+    --primary-foreground: 0, 0%, 100%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 180 39% 56%;
+    --input: 180 39% 56%;
+    --ring: 180 39% 56%;
+    --radius: 0.5rem;
+  }
+}
+
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+  }
